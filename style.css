@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    display: block;
+    background-color:cornsilk;
+}
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+.logo_container{
+   
+    height: 100%;
+    display: table;
+    float: left;
+    text-align: left;
+    margin-left: 150px;  
+}
+.logo_container h1{
+color:black;
+height: 100%;
+display: table-cell;
+vertical-align: middle;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 45px;
+font-weight:100;
+text-align: left;
+}
+.logo_container h1 span{
+    font-weight:800;
+}
+.navigation{
+    float:right;
+    height: 100%;
+    
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    
+}
+.navigation a:last-child{
+    padding: 0px;
+
+}
+.navigation a li{
+display: table-cell;
+vertical-align: middle; 
+color: aliceblue;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+color: black;
+
+
+}
+.carts{
+    size: 20px;
+float: left;
+}
+.navigation a li:link{
+    color:black;
+}
+.navigation a li:hover {
+    color:sienna;
+}
+/*=======category heading*/
+#heading-block{
+    width: 100%;
+    height: auto;
+    float: left;
+    columns: #1aa1a1;
+    font-size: 22px;
+
+}
+#heading-block h2{
+    line-height: 35px;
+    border-left: 20px solid;
+    padding-left: 10px;
+    color: black;
+}
+/*====category boxes*/
+.catbox{
+    width: 235px;
+    height: 235px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 0 15 30 0;
+    margin-left: 10px;
+}
+.catbox span{
+    width: 100%;
+    background:rgba(0,0,0,0.5);
+    height: 35px;
+    line-height: 35px;
+    color: aliceblue;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+ /* Make the image fully responsive */
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+ }
+ /* This is for products */
+ .prod-box{
+     width: 235px;
+     height: 300px;
+     overflow: hidden;
+     margin: 0 20 30 0;
+     position: relative;
+     float: left;
+ }
+ 
+ 
+
+ 
+ 
+ .offer{
+   
+     float: left;
+ }
+ #footer{
+     width: 100%;
+     height: auto;
+     background: cornsilk;
+     float: left;
+ }
+ .footer_sub{
+     width: 25%;
+     color:black;
+ float: left;
+    }
+
+ .footer_sub2{
+    width: 20%; 
+    float: left;
+ }
+ .footer_sub3{
+     width: 25%;
+     float: left;
+ }
+ .footer_sub4{
+    width: 35%;
+    float: left;
+ 
+    }
+.subs{
+width: 300px;
+border: none;
+height: 50px;
+padding: 15px;
+
+}
+.sub_btn{
+    height: 50px;
+    width: 90px;
+    border: none;
+    background: lightgrey;
+}
+.sub_p{
+    color: black;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
